@@ -18,12 +18,13 @@ echo '<pre>';
 // $bebras2->spalva = 'raudonas';
 // $bebras1->spalva = 'juodas';
 
-echo "\n" . $bebras1->kokiaTavoSpalva() . "\n";
+//echo "\n" . $bebras1->kokiaTavoSpalva() . "\n";
 
-echo "\n" . $bebras2->kokiaTavoSpalva() . "\n\n";
+//echo "\n" . $bebras2->kokiaTavoSpalva() . "\n\n";
 
-$bebras2();
-
+//$bebras2();
+echo "\n" . $bebras1->spalva . "\n";
+echo "\n" . $bebras1->Spalva() . "\n";
 
 var_dump($bebras1);
 

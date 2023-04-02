@@ -1,0 +1,18 @@
+{
+    "name": "vril/ns",
+    "autoload": {
+        "psr-4": {
+            "Vril\\Ns\\": "src/",
+            "": "uztvankos/",
+            "Ievos\\": ""
+
+        }
+    },
+    "authors": [
+        {
+            "name": "mstepno",
+            "email": "121028153+mstepno@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

@@ -21,6 +21,7 @@ class Bebras {
     {
         echo '<h1>Alio</h1>';
     }
+    public function __get()
 
     public function kokiaTavoSpalva()
     {

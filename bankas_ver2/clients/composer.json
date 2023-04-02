@@ -1,0 +1,17 @@
+{
+    "name": "mstepno/bankes",
+    "description": "bankes Database",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    },
+    "authors": [{
+        "name": "mstepno",
+        "email": "mstepno@gmail.com"
+    }],
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}
