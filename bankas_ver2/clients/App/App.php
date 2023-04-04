@@ -2,7 +2,7 @@
 namespace App;
 
 use App\Controllers\HomeController;
-use App\Controllers\ClientsController;
+use App\Controllers\BankesController;
 use App\Controllers\LoginController;
 
 class App {
@@ -43,8 +43,8 @@ class App {
 
 
 
-        if ($method == 'GET' && count($url) == 2 && $url[0] === 'clients' && $url[1] === 'create') {
-            return (new ClientsController)->create();
+        if ($method == 'GET' && count($url) == 2 && $url[0] === 'Bankes' && $url[1] === 'create') {
+            return (new BankesController)->create();
         }
 
         if ($method == 'POST' && count($url) == 2 && $url[0] === 'clients' && $url[1] === 'create') {
