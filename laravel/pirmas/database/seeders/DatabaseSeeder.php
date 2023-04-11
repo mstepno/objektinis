@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name' => 'Briedis',
-            'email' => 'briedis@gmail.com',
-            'password' => Hash::make('123'),
+            'name' => 'Cemodan',
+            'email' => 'barsukas@gmail.com',
+            'password' => Hash::make('1234'),
         ]);
         
         $faker = Faker::create('lt_LT');
