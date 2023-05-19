@@ -9,6 +9,7 @@ class Client extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
     const SORT = [
         'default' => 'No sort',
         'name_asc' => 'By name A-Z',
@@ -29,4 +30,9 @@ class Client extends Model
         '33' => '33',
         '3' => 'tiny view',
     ];
+
+    public function order()
+    {
+        return $this->hasMany(Order::class);
+    }
 }
